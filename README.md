@@ -1,31 +1,98 @@
-# Create React App
+# React & TailwindCSS Portfolio - With Dark Mode
 
-This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
+A simple portfolio starter theme built with React and Tailwind CSS. This is the React version of [vuejs-tailwindcss-portfolio](https://github.com/realstoman/vuejs-tailwindcss-portfolio).
 
-## Deploy Your Own
+![React-TailwindCSS-Portfolio](https://user-images.githubusercontent.com/16396664/146666086-28e88beb-c2f0-431f-adfb-2396d8f64c80.png)
 
-Deploy your own Create React App project with Vercel.
+## Demo URL
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/create-react-app&template=create-react-app)
+[https://react-tailwindcss-portfolio.netlify.app](https://react-tailwindcss-portfolio.netlify.app)
 
-_Live Example: https://create-react-template.vercel.app/_
+## Other versions of this project
 
-## Available Scripts
+-   Next.js Version: [https://github.com/realstoman/nextjs-tailwindcss-portfolio](https://github.com/realstoman/nextjs-tailwindcss-portfolio)
+-   Vue.js Version: [https://github.com/realstoman/vuejs-tailwindcss-portfolio](https://github.com/realstoman/vuejs-tailwindcss-portfolio)
+-   Nuxt.js Version: [https://github.com/realstoman/nuxtjs-tailwindcss-portfolio](https://github.com/realstoman/nuxtjs-tailwindcss-portfolio)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+-   [React v18](https://reactjs.org) with [React Router v6](https://reactrouter.com)
+-   [Tailwind CSS v3](https://tailwindcss.com)
+-   Context API For State Management
+-   Custom Hooks
+-   Unit Testing
+-   Framer Motion transitions & animations
+-   Reusable components
+-   Dark mode
+-   Projects filter by category
+-   Projects filter by search
+-   Smooth scroll
+-   Counter
+-   Dynamic forms
+-   Back to top button
+-   Download file button
+-   Simple and responsive design
 
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### To Contribute to this project, read the [Contribution Guidlines](https://github.com/realstoman/react-tailwindcss-portfolio/blob/main/CONTRIBUTING.md)
 
-The page will reload when you make changes. You may also see any lint errors in the console.
+## Setup
 
-### `npm test`
+1. Make sure you have Node JS installed. If you don't have it:
 
-Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   [Download it from nodejs.org](https://nodejs.org)
+-   [Install it using NVM ](https://github.com/nvm-sh/nvm)
+-   If you're on Mac, Homebrew is a good option too:
 
-### `npm run build`
+```
+brew install node
+```
 
-Builds the app for production to the `build` folder.
+2. Clone the repo:
 
-It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
+```
+git clone https://github.com/realstoman/react-tailwindcss-portfolio.git
+```
+
+3. Open the project folder:
+
+```
+cd react-tailwindcss-portfolio
+```
+
+4. Install packages and dependencies:
+
+```
+yarn
+```
+
+4. NOTE: If you don't have yarn installed, you can install it globally using npm:
+
+```
+npm install --global yarn
+```
+
+5. Start a local dev server at `http://localhost:3000`:
+
+```
+yarn start
+```
+
+6. ##### Run tests:
+
+```
+yarn test
+```
+
+## Notes
+
+-   Always run `yarn install` after pulling new changes
+-   I'll be constantly updating this repo as I'll be adding more sections to it, so please always check the projects section of this repo to see what tasks are under todo and in progress
+-   Coming Soon [I'll be doing a screencast](https://www.youtube.com/realstoman). Soon I'll be uploading a video to my YouTube channel where I'll be going through the process of creating this portoflio
+-   Illustrations from [unDraw](https://undraw.co) and [Freepik](https://freepik.com)
+-   Images from [Unsplash](https://unsplash.com)
+-   Feel free to use it as your own portfolio
+-   Contributions are welcome
+
+### License
+
+[MIT](https://github.com/realstoman/react-tailwindcss-portfolio/blob/main/LICENSE)
