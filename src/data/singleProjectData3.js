@@ -16,9 +16,9 @@ import {
 
 export const singleProjectData = {
 	ProjectHeader: {
-		title: 'Je suis l\'article numéro 3',
+		title: 'Project Management UI',
 		publishDate: 'Jul 21, 2023',
-		tags: 'UI / Frontend',
+		tags: 'UI/UX Design',
 	},
 	ProjectImages: [
 		{

@@ -16,9 +16,9 @@ import {
 
 export const singleProjectData = {
 	ProjectHeader: {
-		title: 'Je suis l\'article numéro 2',
+		title: 'Phoenix Digital Agency',
 		publishDate: 'Jul 21, 2022',
-		tags: 'UI / Frontend',
+		tags: 'Mobile Application',
 	},
 	ProjectImages: [
 		{

@@ -5,13 +5,14 @@ import MobileImage1 from '../images/mobile-project-1.jpg';
 import MobileImage2 from '../images/mobile-project-2.jpg';
 import UIImage1 from '../images/ui-project-1.jpg';
 import UIImage2 from '../images/ui-project-2.jpg';
+import ImageProject1 from '../images/C++-project-1.jpg';
 
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Google Health Platform',
-		category: 'Web Application',
-		img: WebImage2,
+		title: 'Puissance 4',
+		category: 'C++',
+		img: ImageProject1,
 	},
 	{
 		id: 2,
