@@ -1,18 +1,11 @@
 // Import images
-import Image1 from '../images/ui-project-1.jpg';
-import Image2 from '../images/web-project-2.jpg';
 import Image3 from '../images/mobile-project-2.jpg';
 import Image4 from '../images/mobile-project-1.jpg';
 import Image5 from '../images/web-project-1.jpg';
 import Image6 from '../images/ui-project-2.jpg';
-// Import icons
-import {
-	FiFacebook,
-	FiInstagram,
-	FiLinkedin,
-	FiTwitter,
-	FiYoutube,
-} from 'react-icons/fi';
+import Project1Img1 from '../images/C++-project-1.jpg';
+import Project1Img2 from '../images/C++-project-1-img2.png';
+import Project1Img3 from '../images/C++-project-1-img3.jpg';
 
 export const singleProjectData = {
 	ProjectHeader: {
@@ -24,56 +17,31 @@ export const singleProjectData = {
 		{
 			id: 1,
 			title: 'Kabul Project Management UI',
-			img: Image1,
+			img: Project1Img1,
 		},
 		{
 			id: 2,
 			title: 'Kabul Project Management UI',
-			img: Image2,
+			img: Project1Img2,
 		},
 		{
 			id: 3,
 			title: 'Kabul Project Management UI',
-			img: Image3,
+			img: Project1Img3,
 		},
 	],
 	ProjectInfo: {
-		ClientHeading: 'About Client',
-		CompanyInfo: [
-			{
-				id: 1,
-				title: 'Name',
-				details: 'Company Ltd',
-			},
-			{
-				id: 2,
-				title: 'Services',
-				details: 'UI Design & Frontend Development',
-			},
-			{
-				id: 3,
-				title: 'Website',
-				details: 'https://company.com',
-			},
-			{
-				id: 4,
-				title: 'Phone',
-				details: '555 8888 888',
-			},
-		],
+		
 		ObjectivesHeading: 'Objective',
 		ObjectivesDetails:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+			'L\'objectif de ce projet était de développer mes compétences en programmation C++ en créant un mini-jeu sur console, à savoir le Puissance 4.',
 		Technologies: [
 			{
 				title: 'Tools & Technologies',
 				techs: [
-					'HTML',
-					'CSS',
-					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
+					'C++',
+					'DockerFile',
+					'CMake',
 				],
 			},
 		],
@@ -82,60 +50,24 @@ export const singleProjectData = {
 			{
 				id: 1,
 				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					'Le jeu de puissance 4 est un programme en ligne de commande qui permet à deux joueurs de jouer au célèbre jeu de puissance 4 sur une grille 7x6. Les joueurs jouent à tour de rôle en entrant le numéro de la colonne où ils souhaitent placer leur jeton.',
 			},
 			{
 				id: 2,
 				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					'Les fonctionnalités du jeu de Puissance 4 comprennent l\'affichage de la grille de jeu dans la console, la sélection de la colonne par les joueurs pour placer leur jeton, la vérification des conditions de victoire, de match nul ou de continuité du jeu, et l\'affichage du résultat final du jeu. Les joueurs ont également la possibilité de recommencer une partie. Le programme utilise des tableaux statiques ou dynamiques pour représenter la grille de jeu, une classe pour gérer le jeu et des boucles for pour vérifier les conditions de victoire.',
 			},
 			{
 				id: 3,
 				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					'Les contraintes techniques du programme du jeu de Puissance 4 incluent l\'utilisation de tableaux statiques ou dynamiques pour représenter la grille de jeu, l\'implémentation d\'une classe pour gérer le jeu avec des méthodes pour afficher la grille, effectuer les mouvements, vérifier les conditions de victoire et gérer les tours de jeu. Le programme doit utiliser des boucles for pour parcourir la grille et vérifier les conditions de victoire, gérer les erreurs d’entrée utilisateur et les exceptions telles que les colonnes pleines ou les entrées non valides. Enfin, le programme doit utiliser des caractères spécifiques pour représenter les jetons des joueurs et les cases vides de la grille.',
 			},
-			{
-				id: 4,
-				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-			},
+		
 		],
-		SocialSharingHeading: 'Share This',
-		SocialSharing: [
-			{
-				id: 1,
-				name: 'Twitter',
-				icon: <FiTwitter />,
-				url: 'https://twitter.com/realstoman',
-			},
-			{
-				id: 2,
-				name: 'Instagram',
-				icon: <FiInstagram />,
-				url: 'https://instagram.com/realstoman',
-			},
-			{
-				id: 3,
-				name: 'Facebook',
-				icon: <FiFacebook />,
-				url: 'https://facebook.com/',
-			},
-			{
-				id: 4,
-				name: 'LinkedIn',
-				icon: <FiLinkedin />,
-				url: 'https://linkedin.com/',
-			},
-			{
-				id: 5,
-				name: 'Youtube',
-				icon: <FiYoutube />,
-				url: 'https://www.youtube.com/c/StomanStudio',
-			},
-		],
+	
 	},
 	RelatedProject: {
-		title: 'Related Projects',
+		title: 'Other Projects',
 		Projects: [
 			{
 				id: 1,

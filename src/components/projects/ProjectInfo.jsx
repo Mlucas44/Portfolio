@@ -8,6 +8,7 @@ const ProjectInfo = () => {
 		<div className="block sm:flex gap-0 sm:gap-10 mt-14">
 			<div className="w-full sm:w-1/3 text-left">
 				{/* Single project client details */}
+				{singleProjectData.ProjectInfo.ClientHeading && (
 				<div className="mb-7">
 					<p className="font-general-regular text-2xl font-semibold text-secondary-dark dark:text-secondary-light mb-2">
 						{singleProjectData.ProjectInfo.ClientHeading}
@@ -39,8 +40,10 @@ const ProjectInfo = () => {
 						)}
 					</ul>
 				</div>
+				)}
 
 				{/* Single project objectives */}
+				{singleProjectData.ProjectInfo.ObjectivesHeading && (
 				<div className="mb-7">
 					<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
 						{singleProjectData.ProjectInfo.ObjectivesHeading}
@@ -49,6 +52,7 @@ const ProjectInfo = () => {
 						{singleProjectData.ProjectInfo.ObjectivesDetails}
 					</p>
 				</div>
+				)}
 
 				{/* Single project technologies */}
 				<div className="mb-7">
@@ -62,7 +66,9 @@ const ProjectInfo = () => {
 					</p>
 				</div>
 
+
 				{/* Single project social sharing */}
+				{singleProjectData.ProjectInfo.SocialSharing && (
 				<div>
 					<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
 						{singleProjectData.ProjectInfo.SocialSharingHeading}
@@ -87,8 +93,10 @@ const ProjectInfo = () => {
 						)}
 					</div>
 				</div>
-			</div>
+				)}
 
+			</div>
+				
 			{/*  Single project right section */}
 			<div className="w-full sm:w-2/3 text-left mt-10 sm:mt-0">
 				<p className="font-general-regular text-primary-dark dark:text-primary-light text-2xl font-bold mb-7">
