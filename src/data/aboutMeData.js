@@ -1,7 +1,7 @@
 export const aboutMeData = [
 	{
 		id: 1,
-		bio: '	Je suis Lucas Metayer, un développeur web passionné et ambitieux. Actuellement en alternance chez SDVI, je travaille en tant que développeur web full stack, utilisant des technologies telles que PHP 8, Symfony 6, Bootstrap et Stimulus pour réaliser des missions données par la chef de projet.',
+		bio: 'Je suis Lucas Metayer, un développeur web passionné et ambitieux. Actuellement en alternance chez SDVI, je travaille en tant que développeur web full stack, utilisant des technologies telles que PHP 8, Symfony 6, Bootstrap et Stimulus pour réaliser des missions données par la chef de projet.',
 	},
 	{
 		id: 2,
