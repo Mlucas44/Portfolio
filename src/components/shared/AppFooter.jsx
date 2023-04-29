@@ -13,7 +13,7 @@ const socialLinks = [
 	{
 		id: 2,
 		icon: <FiLinkedin />,
-		url: 'https://www.linkedin.com/in/realstoman',
+		url: 'https://www.linkedin.com/in/lucas-metayer-4b21aa1b8',
 	},
 ];
 
