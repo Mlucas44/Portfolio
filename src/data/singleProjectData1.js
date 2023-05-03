@@ -3,9 +3,10 @@ import Image3 from '../images/mobile-project-2.jpg';
 import Image4 from '../images/mobile-project-1.jpg';
 import Image5 from '../images/web-project-1.jpg';
 import Image6 from '../images/ui-project-2.jpg';
-import Project1Img1 from '../images/C++-project-1.jpg';
-import Project1Img2 from '../images/C++-project-1-img2.png';
-import Project1Img3 from '../images/C++-project-1-img3.jpg';
+
+import Project1Img1 from '../images/project-1/img1.jpg';
+import Project1Img2 from '../images/project-1/img2.jpg';
+import Project1Img3 from '../images/project-1/img3.jpg';
 
 export const singleProjectData = {
 	ProjectHeader: {
@@ -16,17 +17,17 @@ export const singleProjectData = {
 	ProjectImages: [
 		{
 			id: 1,
-			title: 'Kabul Project Management UI',
+			title: 'Puissance 4',
 			img: Project1Img1,
 		},
 		{
 			id: 2,
-			title: 'Kabul Project Management UI',
+			title: 'Puissance 4',
 			img: Project1Img2,
 		},
 		{
 			id: 3,
-			title: 'Kabul Project Management UI',
+			title: 'Puissance 4',
 			img: Project1Img3,
 		},
 	],

@@ -6,7 +6,7 @@ A simple portfolio starter theme built with React and Tailwind CSS. This is the 
 
 ## Demo URL
 
-[https://portfolio-mlucas44.vercel.app/](https://portfolio-mlucas44.vercel.app/)
+[https://portfolio-mlucas.netlify.app/](https://portfolio-mlucas.netlify.app/)
 
 ## Features
 
