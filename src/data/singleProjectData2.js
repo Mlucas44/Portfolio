@@ -1,8 +1,4 @@
 // Import images
-import OtherProject1 from '../images/project-1/img2.jpg';
-import OtherProject2 from '../images/mobile-project-2.jpg';
-import OtherProject3 from '../images/web-project-1.jpg';
-import OtherProject4 from '../images/ui-project-2.jpg';
 import Project2Img1 from '../images/project-2/img1.jpg';
 import Project2Img2 from '../images/project-2/img2.jpg';
 import Project2Img3 from '../images/project-2/img3.jpg';
@@ -77,22 +73,22 @@ export const singleProjectData = {
 			{
 				id: 1,
 				title: 'Puissance 4',
-				img: OtherProject1,
+				img: Project2Img1,
 			},
 			{
 				id: 2,
 				title: 'Web Application',
-				img: OtherProject2,
+				img: Project2Img1,
 			},
 			{
 				id: 3,
 				title: 'UI Design',
-				img: OtherProject3,
+				img: Project2Img1,
 			},
 			{
 				id: 4,
 				title: 'Kabul Mobile App UI',
-				img: OtherProject4,
+				img: Project2Img1,
 			},
 		],
 	},
