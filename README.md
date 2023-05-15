@@ -1,7 +1,5 @@
 # React & TailwindCSS Portfolio - With Dark Mode
 
-A simple portfolio starter theme built with React and Tailwind CSS. This is the React version of [vuejs-tailwindcss-portfolio](https://github.com/realstoman/vuejs-tailwindcss-portfolio).
-
 ![React-TailwindCSS-Portfolio](https://github.com/Mlucas44/Portfolio/blob/main/src/images/home-page.png)
 
 ## Demo URL
@@ -12,8 +10,6 @@ A simple portfolio starter theme built with React and Tailwind CSS. This is the 
 
 -   [React v18](https://reactjs.org) with [React Router v6](https://reactrouter.com)
 -   [Tailwind CSS v3](https://tailwindcss.com)
--   Context API For State Management
--   Custom Hooks
 -   Unit Testing
 -   Framer Motion transitions & animations
 -   Reusable components
@@ -42,7 +38,7 @@ brew install node
 2. Clone the repo:
 
 ```
-git clone https://github.com/realstoman/react-tailwindcss-portfolio.git
+git clone https://github.com/Mlucas44/Portfolio.git
 ```
 
 3. Open the project folder:

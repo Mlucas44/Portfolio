@@ -23,7 +23,7 @@ const ProjectInfo = () => {
 									>
 										<span>{info.title}: </span>
 										<a
-											href="https://stoman.me"
+											href="https://portfolio-mlucas.netlify.app/"
 											className={
 												info.title === 'Website' ||
 												info.title === 'Phone'
