@@ -1178,8 +1178,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   .sm\:mx-4 {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
   .sm\:mt-0 {
