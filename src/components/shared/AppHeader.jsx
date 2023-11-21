@@ -46,9 +46,9 @@ const AppHeader = () => {
           <div>
             <Link to="/">
               {activeTheme === "dark" ? (
-                <img src={logo} className="w-16" alt="Dark Logo" />
+                <img src={logo} className="w-12" alt="Dark Logo" />
               ) : (
-                <img src={logo} className="w-16" alt="Dark Logo" />
+                <img src={logo} className="w-12" alt="Dark Logo" />
               )}
             </Link>
           </div>
