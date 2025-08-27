@@ -12,7 +12,11 @@ const ContactForm = () => {
           action="/about"
           className="max-w-xl m-4 p-6 sm:p-10 bg-secondary-light dark:bg-secondary-dark rounded-xl shadow-xl text-left"
         >
+          {/* requis par Netlify */}
           <input type="hidden" name="form-name" value="contact" />
+          {/* honeypot anti-bot */}
+          <input type="text" name="bot-field" className="hidden" tabIndex="-1" autoComplete="off" />
+
           <p className="font-general-medium text-primary-dark dark:text-primary-light text-2xl mb-8">
             Formulaire de contact
           </p>
@@ -71,17 +75,6 @@ const ContactForm = () => {
           </div>
         </form>
       </div>
-      <form name="contact" netlify>
-      <p>
-        <label>Name <input type="text" name="name" /></label>
-      </p>
-      <p>
-        <label>Email <input type="email" name="email" /></label>
-      </p>
-      <p>
-        <button type="submit">Send</button>
-      </p>
-    </form>
     </div>
   );
 };

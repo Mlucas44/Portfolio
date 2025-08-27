@@ -13,11 +13,16 @@ const contacts = [
   },
   {
     id: 3,
-    name: "06 51 25 91 39",
+    name: "+33 06 51 25 91 39",
     icon: <FiPhone />,
   },
   {
     id: 4,
+    name: "+1 579 366 5284",
+    icon: <FiPhone />,
+  },
+  {
+    id: 5,
     name: "dev.mlucas",
     icon: <FiInstagram />,
     url: "https://www.instagram.com/dev.mlucas",
