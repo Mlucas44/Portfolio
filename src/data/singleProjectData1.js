@@ -1,39 +1,45 @@
 // Import images
-import Project1Img1 from "../images/project-1/img1.jpg";
-import Project1Img2 from "../images/project-1/img2.jpg";
-import Project1Img3 from "../images/project-1/img3.jpg";
+import Project7Img1 from "../images/project-7/img1.png";
+import Project7Img2 from "../images/project-7/img2.png";
+import Project7Img3 from "../images/project-7/img3.png";
 
 export const singleProjectData = {
   ProjectHeader: {
-    title: "Puissance 4",
-    publishDate: "Avril, 2023",
-    tags: "C++",
+    title: "Minishop",
+    publishDate: "Juin, 2024",
+    tags: "E-commerce - Web Application",
   },
   ProjectImages: [
     {
       id: 1,
-      title: "Puissance 4",
-      img: Project1Img1,
+      title: "Minishop",
+      img: Project7Img1,
     },
     {
       id: 2,
-      title: "Puissance 4",
-      img: Project1Img2,
+      title: "Minishop",
+      img: Project7Img2,
     },
     {
       id: 3,
-      title: "Puissance 4",
-      img: Project1Img3,
+      title: "Minishop",
+      img: Project7Img3,
     },
   ],
   ProjectInfo: {
     ObjectivesHeading: "Objectif",
     ObjectivesDetails:
-      "L'objectif de ce projet était de développer mes compétences en programmation C++ en créant un mini-jeu sur console, à savoir le Puissance 4.",
+      "Le projet Minishop consistait à concevoir et développer un site e-commerce complet permettant la promotion et la vente de produits. L’objectif principal était d’offrir une expérience utilisateur fluide, incluant la consultation d’articles, l’ajout au panier et la finalisation d’une commande.",
     Technologies: [
       {
         title: "Technologies",
-        techs: ["C++", "DockerFile", "CMake"],
+        techs: [
+          "Laravel",
+          "React",
+          "Tailwind CSS",
+          "Docker",
+          "CI/CD",
+        ],
       },
     ],
     ProjectDetailsHeading: "Challenge",
@@ -42,19 +48,57 @@ export const singleProjectData = {
         id: 1,
         type: "text",
         content:
-          "Le jeu de puissance 4 est un programme en ligne de commande qui permet à deux joueurs de jouer au célèbre jeu de puissance 4 sur une grille 7x6. Les joueurs jouent à tour de rôle en entrant le numéro de la colonne où ils souhaitent placer leur jeton.",
+          "Ce projet m’a permis de réaliser une application e-commerce de A à Z, depuis la définition des besoins métiers jusqu’au déploiement en production, en intégrant à la fois les aspects front-end, back-end et DevOps.",
       },
       {
         id: 2,
         type: "text",
-        content:
-          "Les fonctionnalités du jeu de Puissance 4 comprennent l'affichage de la grille de jeu dans la console, la sélection de la colonne par les joueurs pour placer leur jeton, la vérification des conditions de victoire, de match nul ou de continuité du jeu, et l'affichage du résultat final du jeu. Les joueurs ont également la possibilité de recommencer une partie. Le programme utilise des tableaux statiques ou dynamiques pour représenter la grille de jeu, une classe pour gérer le jeu et des boucles for pour vérifier les conditions de victoire.",
+        content: "Fonctionnalités principales :",
       },
       {
         id: 3,
+        type: "list",
+        content: [
+          "Mise en place d’un catalogue produits avec fiches détaillées.",
+          "Ajout et gestion des articles dans un panier utilisateur.",
+          "Système de commande permettant de valider l’achat.",
+        ],
+      },
+      {
+        id: 4,
+        type: "text",
+        content: "Mise en place technique :",
+      },
+      {
+        id: 5,
+        type: "list",
+        content: [
+          "Back-end développé en Laravel pour la gestion des données et des règles métiers.",
+          "Front-end en React et Tailwind CSS pour une interface moderne et responsive.",
+          "Déploiement sur serveur avec Docker pour garantir la portabilité et la stabilité.",
+          "Mise en place de pipelines CI/CD et de tests pour sécuriser les déploiements.",
+        ],
+      },
+      {
+        id: 6,
+        type: "text",
+        content: "Compétences Développées :",
+      },
+      {
+        id: 7,
+        type: "list",
+        content: [
+          "Expérience concrète sur un projet e-commerce de bout en bout.",
+          "Maîtrise des interactions front/back avec React et Laravel.",
+          "Amélioration de mes compétences DevOps : Docker, CI/CD, mise en production.",
+          "Vision globale d’un projet web allant de la conception à l’exploitation.",
+        ],
+      },
+      {
+        id: 8,
         type: "text",
         content:
-          "Les contraintes techniques du programme du jeu de Puissance 4 incluent l'utilisation de tableaux statiques ou dynamiques pour représenter la grille de jeu, l'implémentation d'une classe pour gérer le jeu avec des méthodes pour afficher la grille, effectuer les mouvements, vérifier les conditions de victoire et gérer les tours de jeu. Le programme doit utiliser des boucles for pour parcourir la grille et vérifier les conditions de victoire, gérer les erreurs d’entrée utilisateur et les exceptions telles que les colonnes pleines ou les entrées non valides. Enfin, le programme doit utiliser des caractères spécifiques pour représenter les jetons des joueurs et les cases vides de la grille.",
+          "Ce projet a été particulièrement enrichissant car il combinait à la fois les enjeux techniques du e-commerce et la mise en œuvre de pratiques modernes de déploiement.",
       },
     ],
   },
@@ -63,23 +107,23 @@ export const singleProjectData = {
     Projects: [
       {
         id: 1,
-        title: "Mobile UI",
-        img: Project1Img2,
+        title: "Backoffice",
+        img: Project7Img3,
       },
       {
         id: 2,
-        title: "Web Application",
-        img: Project1Img2,
+        title: "Biiip",
+        img: Project7Img3,
       },
       {
         id: 3,
-        title: "UI Design",
-        img: Project1Img3,
+        title: "Constellation Familial",
+        img: Project7Img3,
       },
       {
         id: 4,
-        title: "Kabul Mobile App UI",
-        img: Project1Img3,
+        title: "Puissance 4",
+        img: Project7Img3,
       },
     ],
   },

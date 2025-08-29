@@ -2,6 +2,9 @@ import { singleProjectData as singleProjectData1 } from './singleProjectData1';
 import { singleProjectData as singleProjectData2 } from './singleProjectData2';
 import { singleProjectData as singleProjectData3 } from './singleProjectData3';
 import { singleProjectData as singleProjectData4 } from './singleProjectData4';
+import { singleProjectData as singleProjectData5 } from './singleProjectData5';
+import { singleProjectData as singleProjectData6 } from './singleProjectData6';
+import { singleProjectData as singleProjectData7 } from './singleProjectData7';
 
 
 
@@ -17,6 +20,12 @@ export function loadData(projectId) {
         return singleProjectData3;
       case '4':
         return singleProjectData4;
+      case '5':
+        return singleProjectData5;
+      case '6':
+        return singleProjectData6;
+      case '7':
+        return singleProjectData7;
       default:
         return null;
     }

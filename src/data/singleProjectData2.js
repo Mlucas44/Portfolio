@@ -1,44 +1,44 @@
 // Import images
-import Project2Img1 from "../images/project-2/img1.jpg";
-import Project2Img2 from "../images/project-2/img2.jpg";
-import Project2Img3 from "../images/project-2/img3.jpg";
+import Project6Img1 from "../images/project-6/img1.png";
+import Project6Img2 from "../images/project-6/img2.png";
+import Project6Img3 from "../images/project-6/img3.png";
 
 export const singleProjectData = {
   ProjectHeader: {
-    title: "To Do List",
-    publishDate: "Mai, 2023",
-    tags: "Web Application",
+    title: "Backoffice",
+    publishDate: "Février - Juillet, 2024",
+    tags: "Web Application - Refonte",
   },
   ProjectImages: [
     {
       id: 1,
-      title: "To Do List",
-      img: Project2Img1,
+      title: "Backoffice",
+      img: Project6Img1,
     },
     {
       id: 2,
-      title: "To Do List",
-      img: Project2Img2,
+      title: "Backoffice",
+      img: Project6Img2,
     },
     {
       id: 3,
-      title: "To Do List",
-      img: Project2Img3,
+      title: "Backoffice",
+      img: Project6Img3,
     },
   ],
   ProjectInfo: {
     ObjectivesHeading: "Objectif",
     ObjectivesDetails:
-      "Ce projet consistait à créer une application to-do list interactive et conviviale. L'objectif principal était de renforcer mes compétences en React, notamment en gestion d'état et en interaction avec le stockage local du navigateur (LocalStorage).",
+      "Ce projet avait pour but de réaliser une refonte complète d’un ancien backoffice développé en PHP natif. L’objectif principal était de moderniser l’architecture en mettant en place un système robuste et évolutif, basé sur Laravel pour le back-end et React avec Tailwind pour le front-end.",
     Technologies: [
       {
         title: "Technologies",
         techs: [
+          "Laravel",
           "React",
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "LocalStorage pour la persistance des données",
+          "Tailwind CSS",
+          "Docker",
+          "CI/CD",
         ],
       },
     ],
@@ -48,20 +48,21 @@ export const singleProjectData = {
         id: 1,
         type: "text",
         content:
-          "Ce projet a été une excellente opportunité pour moi de consolider mes connaissances en React et de comprendre les subtilités de la gestion de l'état local et de la persistance des données dans les applications web.",
+          "Ce projet d’envergure m’a permis de reprendre un ancien système obsolète et de le transformer en une application moderne et performante. J’ai assuré l’ensemble du cycle de développement, de la conception à la mise en production.",
       },
       {
         id: 2,
         type: "text",
-        content: "Fonctionnalités :",
+        content: "Fonctionnalités et mise en place :",
       },
       {
         id: 3,
         type: "list",
         content: [
-          "- Création de Tâches : Les utilisateurs peuvent ajouter de nouvelles tâches à leur liste.",
-          "- Modification et Suppression : Chaque tâche peut être modifiée ou supprimée.",
-          "- Persistance des Données : Grâce à l'utilisation de LocalStorage, les tâches restent disponibles même après le rechargement de la page.",
+          "Développement du back-end avec Laravel.",
+          "Création d’une interface utilisateur moderne en React et Tailwind CSS.",
+          "Déploiement et mise en production à l’aide de Docker.",
+          "Mise en place de pipelines CI/CD pour automatiser les tests et le déploiement.",
         ],
       },
       {
@@ -73,10 +74,17 @@ export const singleProjectData = {
         id: 5,
         type: "list",
         content: [
-          "- Gestion d'État en React : Maîtrise des hooks tels que useState pour gérer l'état local des composants.",
-          "- Manipulation du LocalStorage : Apprendre à stocker, récupérer, et mettre à jour des données dans le navigateur de l'utilisateur.",
-          "- Développement Front-End : Renforcement de mes compétences en HTML, CSS et JavaScript pour une interface utilisateur réactive et attrayante.",
+          "Expérience complète sur un projet de A à Z, de la conception à la production.",
+          "Montée en compétence sur Laravel et React dans un contexte professionnel.",
+          "Maîtrise de Docker pour l’orchestration et le déploiement.",
+          "Mise en place et utilisation d’une intégration continue et de tests automatisés.",
         ],
+      },
+      {
+        id: 6,
+        type: "text",
+        content:
+          "Ce projet a été particulièrement formateur et enrichissant, car il m’a confronté à la gestion d’un projet complet avec des enjeux réels de performance, de maintenabilité et de déploiement.",
       },
     ],
   },
@@ -85,23 +93,23 @@ export const singleProjectData = {
     Projects: [
       {
         id: 1,
-        title: "Puissance 4",
-        img: Project2Img1,
+        title: "Biiip",
+        img: Project6Img3,
       },
       {
         id: 2,
-        title: "Web Application",
-        img: Project2Img1,
+        title: "Constellation Familial",
+        img: Project6Img3,
       },
       {
         id: 3,
-        title: "UI Design",
-        img: Project2Img1,
+        title: "Puissance 4",
+        img: Project6Img3,
       },
       {
         id: 4,
-        title: "Kabul Mobile App UI",
-        img: Project2Img1,
+        title: "Web Application",
+        img: Project6Img3,
       },
     ],
   },
